@@ -6,3 +6,8 @@ __pycache__
 build
 *.c
 pflow/utils/monotonic_align/*.pyd
+
+.vscode/
+
+*.tar.bz2
+*.wav

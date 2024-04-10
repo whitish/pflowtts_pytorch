@@ -6,7 +6,10 @@ from pathlib import Path
 from typing import Any, Callable, Dict, Tuple
 
 import gdown
+
 import matplotlib.pyplot as plt
+plt.switch_backend('agg')  # alex: adding as a fix, reference: https://stackoverflow.com/questions/52839758/matplotlib-and-runtimeerror-main-thread-is-not-in-main-loop
+
 import numpy as np
 import torch
 import wget

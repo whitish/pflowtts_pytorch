@@ -45,7 +45,7 @@ train: True
 test: True
 
 # simply provide checkpoint path to resume training
-ckpt_path: null
+ckpt_path: null #/home/user/Documents/AlexBiloshytskyi/TTS/pflowtts_pytorch/logs/train/ljspeech/runs/2024-04-09_15-46-42/checkpoints/last.ckpt  # null
 
 # transfer learning checkpoint path to initialize model weights
 transfer_ckpt_path: null
