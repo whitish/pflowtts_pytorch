@@ -11,3 +11,5 @@ pflow/utils/monotonic_align/*.pyd
 
 *.tar.bz2
 *.wav
+
+hifigan/pretrained/*
